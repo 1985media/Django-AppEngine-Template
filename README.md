@@ -14,7 +14,8 @@ Naming Conventions
 Set up the template for use with your project
 --------
  - rename the 'guestbook' folder/package to the namespace you intend to use
- - in Django_AppEngine.settings update the NAMESPACE variable to match your namesapce
+ - in Django_AppEngine/settings.py update the NAMESPACE variable to match your namesapce
+ - in Django_AppEngine/urls.py update the included pattern to reflect your namespace
  - in app.yaml update the application property to match the name of your App Engine application name
  
 
